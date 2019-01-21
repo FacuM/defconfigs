@@ -9,6 +9,12 @@ Required to add back support for legacy ATI Radeon HD and Intel devices.
 
 #### Extra steps
 
-- Place them in ´arch/x86/configs´.
-- Type ´make x86_64-legacygpu_defconfig´.
+- Place them in the following path:
+
+   arch/x86/configs
+
+- Type the next command:
+
+   make x86_64-legacygpu_defconfig
+
 - Build as normal.
