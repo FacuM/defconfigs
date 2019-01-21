@@ -7,4 +7,8 @@ Some custom kernel defconfigs made using menuconfig.
 
 Required to add back support for legacy ATI Radeon HD and Intel devices.
 
-Place them in arch/x86/configs, then build as normal.
+#### Extra steps
+
+- Place them in ´arch/x86/configs´.
+- Type ´make x86_64-legacygpu_defconfig´.
+- Build as normal.
